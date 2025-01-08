@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Personal Finance Tracker",
+        "description": "Keep track of personal finance: expenses, savings goals, budgets, net worth",
+        "tags": ["react", "tailwind", "firebase"],
+        "image": "",
+        "status": "wip",
+        "github": "https://github.com/joshuaduke/FinanceTrackerApp",
+        "liveLink": "https://stellular-frangipane-2b6210.netlify.app/"
+    },
+    {
+        "title": "Arithmetic Hero",
+        "description": "This is a game that I created for children to practice their arithmetic skills",
+        "tags": ["javascript", "sass"],
+        "image": "/src/assets/images/MathGame.png",
+        "status": "done",
+        "github": "https://github.com/joshuaduke/SuperHeroMathGameV2",
+        "liveLink": "https://joshuaduke.github.io/SuperHeroMathGameV2/"
+    },
+    {
+        "title": "Movie Watchlist PWA",
+        "description": "This is a personal Project I made for myself. Watchlist in order for me to keep track of movies that have been recommended to me. And a reviews of movies that I have checked off the watchlist.",
+        "tags": ["javascript", "nodejs", "mongod", "api", "pwa"],
+        "image": "/src/assets/images/JedMovies.png",
+        "status": "wip"
+,        "github": "https://github.com/joshuaduke/movieWatchlist",
+        "liveLink": "https://movie-watchlist-7bdfc2fa57d2.herokuapp.com/"
+    },
+    {
+        "title": "RPSLS",
+        "description": "Rock Paper Scissors Lizard Spock is a version of rock paper scissors that was played in the TV series 'The Big Bang Theory'. I wanted to make the game playable",
+        "tags": ["html", "css", "javascript"],
+        "image": "/src/assets/images/rockPaperScissors.png",
+        "status": "done",
+        "github": "https://github.com/joshuaduke/Rock-Paper-Scissors-GUI",
+        "liveLink": "https://joshuaduke.github.io/Rock-Paper-Scissors-GUI/"
+    }
+
+]
