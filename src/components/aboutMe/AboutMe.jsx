@@ -2,26 +2,12 @@ import Timeline from "./Timeline";
 
 export default function AboutMe() {
   return (
-    <div className="relative hdvh">
-      <main className="flex flex-col justify-center items-center mt-48 p-2">
-        <p className="">BASED IN CANADA</p>
-        <h1 className="text-6xl">Joshua Duke</h1>
-        <p className="my-4">Full Stack Web Developer</p>
-        <div className="w-full text-center">
-          <a
-            href=""
-            className="border-solid rounded-md border-r p-2 inline-block"
-          >
-            See my Work
-          </a>
-        </div>
-      </main>
-
+    <div className="relative" style={{ maxWidth: "1100px", margin: "0 auto" }}>
       <article
-        style={{ top: 250, left: 0, right: 0 }}
-        className="bg-slate-900 text-white border-solid border-gray-50 p-6 w-11/12 absolute  z-20 my-0 mx-auto rounded-lg"
+        style={{ top: 20, left: 0, right: 0 }}
+        className="py-8 bg-slate-900 text-white border border-accent p-6 w-11/12 absolute  z-20 my-0 mx-auto rounded-lg"
       >
-        <h2 className="pb-2">ABOUT ME</h2>
+        <h2 className="pb-2   mb-4 text-accent">ABOUT ME</h2>
         <p>
           Hello there, I currently am working as a developer at reSolved
           business solutions. I am also a Computer programming and Analysis

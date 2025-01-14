@@ -58,26 +58,34 @@ export default function Skills() {
         perfect balance between aesthetics and performance.
       </p>
 
-      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {arrJobHistory.map((skill, index) => (
-          <div key={index}>
-            <li className="font-poppins flex items-center flex-1 gap-5 p-2.5 rounded-xl border border-blue-700 bg-blue-900 hover:bg-blue-800 hover:border-blue-500 transition-colors duration-200">
-              <div
-                className="p-3 rounded-xl w-fit"
-                style={{ backgroundColor: "#F7DF1E33" }}
-              >
-                <img className="size-8" src={skill.img} alt="" />
-              </div>
-              <div>
-                <h3 className="text-lg text-slate-100 font-medium cursor-default text-left">
-                  {skill.title}
-                </h3>
-                <p className="text-slate-100/80 text-sm cursor-default">
-                  {skill.description}
-                </p>
-              </div>
-            </li>
-          </div>
+          <li
+            key={index}
+            className="font-poppins flex items-center flex-1 gap-5 p-2.5 rounded-xl border border-yellow-700 bg-blue-900 hover:bg-blue-800 hover:border-blue-500 transition-colors duration-200"
+          >
+            <div
+              className="p-3 rounded-xl w-fit"
+              style={{ backgroundColor: "#F7DF1E33" }}
+            >
+              <img
+                width={"40"}
+                height={"40"}
+                style={{ color: "transparent" }}
+                className="size-8 "
+                src={skill.img}
+                alt=""
+              />
+            </div>
+            <div>
+              <h4 className="text-lg text-slate-100 font-medium cursor-default">
+                {skill.title}
+              </h4>
+              <p className="text-slate-100/80 text-sm cursor-default">
+                {skill.description}
+              </p>
+            </div>
+          </li>
         ))}
       </ul>
     </div>
