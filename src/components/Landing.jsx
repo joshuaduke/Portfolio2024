@@ -2,7 +2,7 @@ export default function Landing() {
   return (
     <main className="flex flex-col justify-center items-center p-2 h-dvh">
       <p className="">BASED IN CANADA</p>
-      <h1 className="text-6xl text-titleWhite">Joshua Duke</h1>
+      <h1 className="text-titleWhite text-5xl md:text-6xl">Joshua Duke</h1>
       <h2 className="my-4 text-accent">
         I&#39;m a Full Stack &#60;Web /&#62; Developer
       </h2>
@@ -34,7 +34,7 @@ export default function Landing() {
       <div className="w-full text-center ">
         <a
           href="#projects"
-          className="border-solid rounded-md border-r px-4 py-2 inline-block text-lg"
+          className="border-solid rounded-md border px-4 py-2 inline-block text-lg"
         >
           Check out my Projects
         </a>

@@ -1,16 +1,16 @@
 [
     {
         "title": "Personal Finance Tracker",
-        "description": "Keep track of personal finance: expenses, savings goals, budgets, net worth",
+        "description": "Lorem ipsum dolor sit amet. Eum magnam nihil in impedit incidunt vel corrupti provident aut laborum earum ut fugiat blanditiis est molestiae laudantium in molestias labore. In minus totam a velit nihil qui odio voluptatum qui itaque magni in labore nulla aut voluptas internos. Ea facere galisum sed architecto commodi eos doloribus quibusdam et temporibus inventore qui possimus sapiente sed natus rerum vel adipisci sapiente. Ut ducimus provident et distinctio eligendi aut unde eveniet aut dolorem inventore eos consequatur exercitationem! In voluptatem porro et amet ipsam ut omnis quia. Est dolore libero id quia voluptatem ut quia amet et fugiat autem. Et porro libero eum quos suscipit eum veritatis blanditiis quo harum tenetur rem odio accusantium sit explicabo odio sit architecto sapiente. Et accusantium porro et deleniti tenetur ad quae sunt et quia voluptatem non veritatis voluptate! Quo libero vero ut aliquid totam qui dolor dicta ut quia provident nam voluptatem doloremque aut quia repellat nam quae voluptate.",
         "tags": ["react", "tailwind", "firebase"],
-        "image": "",
+        "image": "/src/assets/images/jSpender.png",
         "status": "wip",
         "github": "https://github.com/joshuaduke/FinanceTrackerApp",
         "liveLink": "https://stellular-frangipane-2b6210.netlify.app/"
     },
     {
         "title": "Arithmetic Hero",
-        "description": "This is a game that I created for children to practice their arithmetic skills",
+        "description": "Lorem ipsum dolor sit amet. Eum magnam nihil in impedit incidunt vel corrupti provident aut laborum earum ut fugiat blanditiis est molestiae laudantium in molestias labore. In minus totam a velit nihil qui odio voluptatum qui itaque magni in labore nulla aut voluptas internos. Ea facere galisum sed architecto commodi eos doloribus quibusdam et temporibus inventore qui possimus sapiente sed natus rerum vel adipisci sapiente. Ut ducimus provident et distinctio eligendi aut unde eveniet aut dolorem inventore eos consequatur exercitationem! In voluptatem porro et amet ipsam ut omnis quia. Est dolore libero id quia voluptatem ut quia amet et fugiat autem. Et porro libero eum quos suscipit eum veritatis blanditiis quo harum tenetur rem odio accusantium sit explicabo odio sit architecto sapiente. Et accusantium porro et deleniti tenetur ad quae sunt et quia voluptatem non veritatis voluptate! Quo libero vero ut aliquid totam qui dolor dicta ut quia provident nam voluptatem doloremque aut quia repellat nam quae voluptate.",
         "tags": ["javascript", "sass"],
         "image": "/src/assets/images/MathGame.png",
         "status": "done",
@@ -19,7 +19,7 @@
     },
     {
         "title": "Movie Watchlist PWA",
-        "description": "This is a personal Project I made for myself. Watchlist in order for me to keep track of movies that have been recommended to me. And a reviews of movies that I have checked off the watchlist.",
+        "description": "Lorem ipsum dolor sit amet. Eum magnam nihil in impedit incidunt vel corrupti provident aut laborum earum ut fugiat blanditiis est molestiae laudantium in molestias labore. In minus totam a velit nihil qui odio voluptatum qui itaque magni in labore nulla aut voluptas internos. Ea facere galisum sed architecto commodi eos doloribus quibusdam et temporibus inventore qui possimus sapiente sed natus rerum vel adipisci sapiente. Ut ducimus provident et distinctio eligendi aut unde eveniet aut dolorem inventore eos consequatur exercitationem! In voluptatem porro et amet ipsam ut omnis quia. Est dolore libero id quia voluptatem ut quia amet et fugiat autem. Et porro libero eum quos suscipit eum veritatis blanditiis quo harum tenetur rem odio accusantium sit explicabo odio sit architecto sapiente. Et accusantium porro et deleniti tenetur ad quae sunt et quia voluptatem non veritatis voluptate! Quo libero vero ut aliquid totam qui dolor dicta ut quia provident nam voluptatem doloremque aut quia repellat nam quae voluptate.",
         "tags": ["javascript", "nodejs", "mongod", "api", "pwa"],
         "image": "/src/assets/images/JedMovies.png",
         "status": "wip"
@@ -28,7 +28,7 @@
     },
     {
         "title": "RPSLS",
-        "description": "Rock Paper Scissors Lizard Spock is a version of rock paper scissors that was played in the TV series 'The Big Bang Theory'. I wanted to make the game playable",
+        "description": "Lorem ipsum dolor sit amet. Eum magnam nihil in impedit incidunt vel corrupti provident aut laborum earum ut fugiat blanditiis est molestiae laudantium in molestias labore. In minus totam a velit nihil qui odio voluptatum qui itaque magni in labore nulla aut voluptas internos. Ea facere galisum sed architecto commodi eos doloribus quibusdam et temporibus inventore qui possimus sapiente sed natus rerum vel adipisci sapiente. Ut ducimus provident et distinctio eligendi aut unde eveniet aut dolorem inventore eos consequatur exercitationem! In voluptatem porro et amet ipsam ut omnis quia. Est dolore libero id quia voluptatem ut quia amet et fugiat autem. Et porro libero eum quos suscipit eum veritatis blanditiis quo harum tenetur rem odio accusantium sit explicabo odio sit architecto sapiente. Et accusantium porro et deleniti tenetur ad quae sunt et quia voluptatem non veritatis voluptate! Quo libero vero ut aliquid totam qui dolor dicta ut quia provident nam voluptatem doloremque aut quia repellat nam quae voluptate.",
         "tags": ["html", "css", "javascript"],
         "image": "/src/assets/images/rockPaperScissors.png",
         "status": "done",

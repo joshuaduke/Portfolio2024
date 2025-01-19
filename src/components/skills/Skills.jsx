@@ -62,7 +62,7 @@ export default function Skills() {
         {arrJobHistory.map((skill, index) => (
           <li
             key={index}
-            className="font-poppins flex items-center flex-1 gap-5 p-2.5 rounded-xl border border-yellow-700 bg-blue-900 hover:bg-blue-800 hover:border-blue-500 transition-colors duration-200"
+            className="font-poppins flex items-center flex-1 gap-5 p-2.5 rounded-xl border border-accent bg-blue-900 hover:bg-blue-800 hover:border-blue-500 transition-colors duration-200"
           >
             <div
               className="p-3 rounded-xl w-fit"

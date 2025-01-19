@@ -26,7 +26,10 @@ p, span, li, a {
 #root {
   /* max-width: 1100px; */
   margin: 0 auto;
+  padding-right: 24px;
+  padding-left: 24px;
   /* text-align: center; */
+  background-color: rgba(0, 0, 0, 0.3)
 }
 
 a{
@@ -38,8 +41,6 @@ ul{
 }
 
 body{
-  padding-right: 24px;
-  padding-left: 24px;
   margin-right: auto;
   margin-left: auto;
   background-color: #020113;
@@ -49,7 +50,9 @@ body{
   background-size:cover;
 }
 
-
+#projects{
+  margin-top: 1250px;
+}
 
 .project{
   margin:40px 0;
@@ -69,6 +72,7 @@ body{
   /* background-color: teal; */
 }
 
+/* Tablet - medium in tailwind */
 @media (min-width: 768px){
   .project:nth-of-type(odd){
     display: flex;
@@ -83,8 +87,36 @@ body{
     justify-content: end;
     /* background-color: teal; */
   }
+
+  #projects{
+    margin-top: 900px;
+  }
+  
+  img{
+    margin: auto;
+  }
 }
 
+/* Laptop - Large in Tailwind */
+@media (min-width: 1024px){
+  /* #projects{
+    margin-top: 900px;
+  } */
+}
+
+/*  - xtra Large in Tailwind */
+/* @media (min-width: 1280px){
+  #projects{
+    margin-top: 150px;
+  }
+} */
+
+/*  - 2 xtra Large in Tailwind */
+@media (min-width: 1536px){
+  /* #projects{
+    margin-top: 850px;
+  } */
+}
 
 
 

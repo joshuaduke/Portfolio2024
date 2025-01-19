@@ -27,55 +27,66 @@ export default function Projects() {
 
   return (
     <>
-      <div
-        id="projects"
-        className="my-10 pt-10"
-        style={{ marginTop: "1050px" }}
-      >
+      <div id="projects" className="my-10 pt-10 text-center">
         <h2 className="text-5xl mb-6">Projects</h2>
-        <p>
+        <p className="text-lg">
           This is a showcase for my most current projects. Most of the projects
-          are my side projects while others are collaborations between multiple
-          developers/teams.
+          are my completed side projects. While some of them are actively in
+          development.
         </p>
       </div>
 
-      <div className="">
+      <div className="my-0 mx-auto md:w-full lg:w-full 2xl:w-9/12">
         {data &&
           data.length > 0 &&
           data.map((item, index) => {
             if (index % 2 == 0) {
               return (
                 <div key={index} className="project">
-                  <div className="project-content p-8 flex flex-col justify-between">
+                  <div className="project-content flex flex-col justify-between md:p-8 lg:p-2 ">
                     <div>
-                      <h4 className="text-3xl mb-2 my-8">{item.title}</h4>
+                      <h4 className="text-3xl mb-2 my-8 lg:my-0">
+                        {item.title}
+                      </h4>
                       <ul className="text-lg flex flex-col gap-4">
                         <li className="">
                           <a
-                            className="border-b-2 border-red-600"
+                            target="_blank"
+                            className="border-b-2 border-accent"
                             href={item.github}
                           >
                             GitHub
                           </a>
                         </li>
-                        <li className="">
-                          <a
-                            className="border-b-2 border-red-600"
-                            href={item.liveLink}
-                          >
-                            Live
-                          </a>
-                        </li>
-                        <li>
-                          {item.status == "wip" ? (
-                            <span className="text-red-500">
-                              *Work in Progress*
-                            </span>
-                          ) : (
-                            ""
-                          )}
-                        </li>
+
+                        {item.status == "wip" ? (
+                          <>
+                            {/* <li className="">
+                              <a
+                                target="_blank"
+                                className="border-b-2 border-accent"
+                                href={item.liveLink}
+                              >
+                                Live
+                              </a>
+                            </li> */}
+                            <li>
+                              <span className="text-orange-400">
+                                *Work in Progress*
+                              </span>
+                            </li>
+                          </>
+                        ) : (
+                          <li className="">
+                            <a
+                              target="_blank"
+                              className="border-b-2 border-accent"
+                              href={item.liveLink}
+                            >
+                              Live
+                            </a>
+                          </li>
+                        )}
                       </ul>
                     </div>
 
@@ -94,7 +105,7 @@ export default function Projects() {
 
                   <img
                     src={item.image}
-                    className="w-full max-w-xl h-auto rounded-lg border-4 border-solid border-accent"
+                    className="w-full max-w-5xl h-auto mx-2 rounded-lg border-4 border-solid border-accent md:max-w-sm md:h-fit lg:max-w-xl 2xl:max-w-5xl"
                     alt=""
                   />
                 </div>
@@ -104,39 +115,52 @@ export default function Projects() {
                 <div key={index} className="project">
                   <img
                     src={item.image}
-                    className="w-full max-w-xl h-auto rounded-lg border-4 border-solid border-accent"
+                    className="w-full max-w-5xl h-auto mx-2 rounded-lg border-4 border-solid border-accent md:max-w-sm md:h-fit lg:max-w-xl 2xl:max-w-5xl"
                     alt=""
                   />
 
-                  <div className="project-content p-8 flex flex-col justify-between">
+                  <div className="project-content flex flex-col justify-between md:p-8 lg:p-2">
                     <div>
-                      <h4 className="text-3xl mb-2 my-8">{item.title}</h4>
+                      <h4 className="text-3xl mb-2 my-8 lg:my-0">
+                        {item.title}
+                      </h4>
                       <ul className="text-lg flex flex-col gap-4">
                         <li className="">
                           <a
-                            className="border-b-2 border-red-600"
+                            className="border-b-2 border-accent"
                             href={item.github}
                           >
                             GitHub
                           </a>
                         </li>
-                        <li className="">
-                          <a
-                            className="border-b-2 border-red-600"
-                            href={item.liveLink}
-                          >
-                            Live
-                          </a>
-                        </li>
-                        <li>
-                          {item.status == "wip" ? (
-                            <span className="text-red-500">
-                              *Work in Progress*
-                            </span>
-                          ) : (
-                            ""
-                          )}
-                        </li>
+                        {item.status == "wip" ? (
+                          <>
+                            {/* <li className="">
+                              <a
+                                target="_blank"
+                                className="border-b-2 border-accent"
+                                href={item.liveLink}
+                              >
+                                Live
+                              </a>
+                            </li> */}
+                            <li>
+                              <span className="text-orange-400">
+                                *Work in Progress*
+                              </span>
+                            </li>
+                          </>
+                        ) : (
+                          <li className="">
+                            <a
+                              target="_blank"
+                              className="border-b-2 border-accent"
+                              href={item.liveLink}
+                            >
+                              Live
+                            </a>
+                          </li>
+                        )}
                       </ul>
                     </div>
 
