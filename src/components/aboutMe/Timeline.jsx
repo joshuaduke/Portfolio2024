@@ -1,16 +1,16 @@
 const arrJobHistory = [
   {
     year: "2022 - PRESENT",
-    title: "Developer - reSolved Business Solutions",
+    title: "Frontend Software Development - reSolved Business Solutions",
     description:
-      "Build and maintain internal products that enhance operational efficiency, working closely with cross-functional teams, including developers, designers, and project managers. Advocating for scalable solutions by introducing new features and ensuring alignment with evolving business goals.",
+      "Developed customized solutions on the SmartSimple platform tailored to meet client requirements, including the creation of custom forms, scripts, and web page views utilizing JavaScript, HTML, CSS, and JQuery. Supported as the internal Quality Assurance (QA) resource prior to Client User Acceptance Testing (UAT). Integrated with APIs to access and manipulate data from internal and external sources.",
     skills: ["Javascript", "CMS", "HTML", "CSS", "jQuery", "APIs"],
   },
   {
     year: "2020",
-    title: "Web Developer - TDSB",
+    title: "Web Developer Intern - TDSB",
     description:
-      "Build and maintain internal products that enhance operational efficiency, working closely with cross-functional teams, including developers, designers, and project managers. Advocating for scalable solutions by introducing new features and ensuring alignment with evolving business goals.",
+      "Enforced accessibility rules over 500 TDSB web pages by applying AODA compliance in accordance with WCAG 2.0 standards. Converted TDSB’s old intranet websites to modern responsive websites using html5, css3, js and Bootstrap 4 following TDSB’s web guidelines. Updated 20+ web pages per day as requested through inbound support cases via email and phone",
     skills: ["Javascript", "CMS", "HTML", "CSS"],
   },
 ];

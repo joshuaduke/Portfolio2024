@@ -29,7 +29,7 @@ export default function Projects() {
     <>
       <div id="projects" className="my-10 pt-10 text-center">
         <h2 className="text-5xl mb-6">Projects</h2>
-        <p className="text-lg">
+        <p className="text-lg lg:my-0 lg:mx-auto lg:w-9/12">
           This is a showcase for my most current projects. Most of the projects
           are my completed side projects. While some of them are actively in
           development.
@@ -90,7 +90,8 @@ export default function Projects() {
                       </ul>
                     </div>
 
-                    <p>{item.description}</p>
+                    <p className="py-4">{item.description}</p>
+
                     <div className="my-4">
                       <span>Tech Stack: </span>
                       {item.tags.map((skill, index) => (
@@ -164,7 +165,8 @@ export default function Projects() {
                       </ul>
                     </div>
 
-                    <p>{item.description}</p>
+                    <p className="py-4">{item.description}</p>
+
                     <div className="my-4">
                       <span>Tech Stack: </span>
                       {item.tags.map((skill, index) => (
